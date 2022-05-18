@@ -45,7 +45,7 @@ function ausgabeliste($sql, $tab, $key, $e)
 
         $icon[0] = "\"../shared/img/b_view.png\"";
         $icon[1] = "\"../shared/img/bd_edit.png\"";
-        $icon[2] = "\".../shared/img/bd_deltbl.png\"";
+        $icon[2] = "\"../shared/img/trash-bin.png\"";
 
         $alt[0] = "\"Anzeigen\"";
         $alt[1] = "\"Bearbeiten\"";

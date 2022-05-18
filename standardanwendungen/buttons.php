@@ -15,8 +15,7 @@ function zurueckButton($t)
     echo "
         <button name=\"back\"
         type=\"button\"
-        onclick=\"window.location.href=
-        'kundenListe.php?t=" . $t . "'\" value=\"zurück\">
+        onclick=\"history.go(-1);\" value=\"zurück\">
         <img src=\"../shared/img/bd_deltbl.png\" border=0 /> zurück </a> </button>
         ";
 }

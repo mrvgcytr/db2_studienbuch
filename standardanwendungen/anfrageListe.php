@@ -2,12 +2,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <Title>Kundendaten</Title>
+    <Title>Anfragedaten</Title>
 </head>
 
 <body>
 
-    <h2>Kundendaten</h2>
+    <h2>Anfragedaten</h2>
 
     <?php
 
@@ -16,11 +16,11 @@
     include("./ausgabeListe.php");
 
     //SQL zusammenbauen
-    $sql = "select kunden_id \"Nr.\", name \"Name\", Telefon \"Tel. \", email \"Email\" from Kunde order by name";
+    $sql = "select anfrage_id \"Nr.\", produkt \"Produkt\", datum \"Datum \" from Anfrage order by datum desc";
 
     //Ausgabe des Resultats
 
-    ausgabeListe($sql, "kunde", "kunden_id", true);
+    ausgabeListe($sql, "anfrage", "anfrage_id", true);
 
     ?>
 
