@@ -1,0 +1,20 @@
+table {
+    border-collapse: separate;
+    border-spacing: 0.1em;
+}
+
+th {
+    padding: 0.2em 0.5em;
+    font-style: italic;
+    text-align: center;
+    color: #DDDDDD;
+    background-color: #000088;
+}
+
+td {
+    padding: 0.2em 0.5em;
+    font-style: italic;
+    text-align: right;
+    background-color: #EEEEEE;
+    color: #333333;
+}

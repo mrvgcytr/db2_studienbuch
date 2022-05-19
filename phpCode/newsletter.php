@@ -1,6 +1,11 @@
+<!DOCTYPE html>
 <html>
 
-<head></head>
+<head>
+    <meta charset="UTF-8">
+    <Title>Newsletter</Title>
+    <link rel="stylesheet" href="../shared/stylesheet.css">
+</head>
 
 <body>
     <form action="ausgabemenue.php" methode=get>

@@ -1,8 +1,10 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>Ausgabe</title>
-
+    <meta charset="UTF-8">
+    <Title>Ausgabe</Title>
+    <link rel="stylesheet" href="../shared/stylesheet.css">
 </head>
 
 <body>

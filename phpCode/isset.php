@@ -1,6 +1,11 @@
+<!DOCTYPE html>
 <html>
 
-<head></head>
+<head>
+    <meta charset="UTF-8">
+    <Title>Is Set?</Title>
+    <link rel="stylesheet" href="../shared/stylesheet.css">
+</head>
 
 <body>
     <?php

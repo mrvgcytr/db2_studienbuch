@@ -1,8 +1,10 @@
+<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="UTF-8">
     <Title>Anfragedaten</Title>
+    <link rel="stylesheet" href="../shared/stylesheet.css">
 </head>
 
 <body>

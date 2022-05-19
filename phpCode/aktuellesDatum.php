@@ -1,7 +1,10 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>HTML</title>
+    <meta charset="UTF-8">
+    <Title>Aktuelles Datum</Title>
+    <link rel="stylesheet" href="../shared/stylesheet.css">
 </head>
 
 <body>

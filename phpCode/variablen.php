@@ -1,7 +1,10 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>Variablen</title>
+    <meta charset="UTF-8">
+    <Title>Variablen</Title>
+    <link rel="stylesheet" href="../shared/stylesheet.css">
 </head>
 
 <body>

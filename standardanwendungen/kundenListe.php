@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <Title>Kundendaten</Title>
+    <link rel="stylesheet" href="../shared/stylesheet.css">
 </head>
 
 <body>
