@@ -9,7 +9,7 @@
 <body>
     <?php
 
-    include("../shared/bibliothek.php");
+    include("./bibliothek.php");
 
     // Auslesen des Eingabefeldes 
     $sql = @$_GET['sql'];
