@@ -5,8 +5,6 @@ function ausgabeliste($sql, $tab, $key, $e)
     include("../shared/bibliothek.php");
     $sel = "Select " . $key . ",";
     $sql = str_ireplace("Select ", $sel, $sql);
-    // --> Ergebnis vom Aufruf auf SB K81.1 S. 124: 
-    //"Select kunden_id,kunden_id "Nr.", name "Name", Telefon "Tel. ", email "Email" from Kunde order by name"
 
     //Abarbeitung der Anfrage
     $res = $verbindung->query($sql) or

@@ -77,7 +77,7 @@ function anzeigen($k, $v, $t, $p)
                 echo "\"/> (JJJJ-MM-TT)";
                 break;
             case "text":
-                echo "<textarea rows=2 cols-30 ";
+                echo "<textarea rows=2 cols=30 ";
                 echo "name=\"fv" . $i . "\">";
                 if ($p < 3)   echo $arr[$i];
                 echo "</textarea>";

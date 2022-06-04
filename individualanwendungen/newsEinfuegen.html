@@ -2,53 +2,48 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF=8">
 </head>
 
 <body>
     <h2>Bitte geben Sie die News ein</h2>
-    <form method-post action="newsEinfuegen.php">
+    <form method=post action="newsEinfuegen.php">
         <table bgcolor="#DDDDDD" cellpadding=5>
             <tr>
                 <td>Titel:</td>
-                <td><textarea rows-1 cols-60 name="titel">
-        </textarea> </td>
+                <td><textarea rows=1 cols=60 name="titel"></textarea></td>
             </tr>
 
             <tr>
                 <td>Vorspann: </td>
-                <td><textarea rows-3 cols-60 name="vorspann">
-        </textarea> </td>
+                <td><textarea rows=3 cols=60 name="vorspann"></textarea> </td>
             </tr>
 
             <tr>
                 <td>Inhalt: </td>
-                <td><textarea rows-5 cols-60 name="inhalt">
-        </textarea></td>
+                <td><textarea rows=5 cols=60 name="inhalt"></textarea></td>
             </tr>
 
             <tr>
                 <td>Ort: </td>
-                <td><textarea rows-1 cols=60 name="ort">
-        </textarea></td>
+                <td><textarea rows=1 cols=60 name="ort"></textarea></td>
             </tr>
 
             <tr>
                 <td>Autor: </td>
-                <td><textarea rows-1 cols=60 name="autor">
-        </textarea></td>
+                <td><textarea rows=1 cols=60 name="autor"></textarea></td>
             </tr>
 
         </table><BR>
 
-        <!-- Abbruch Button -->
+        <!-- Abbruch Button-->
         <button name="back" type="button" onclick="window.location.href='news.php' " value="Zurück zur Liste">
-            <img src="../shared/img/trash-bin.png" border=0 /> abbrechen </a>
+            <img src="../shared/img/trash=bin.png" border=0 /> abbrechen </a>
         </button>
 
-        <!-- EinfügeButton -->
+        <!-- EinfügeButton-->
         <button name="insert" type="submit" value="einfügen">
-            <img src="../shared/img/pencil-tool.png" border=0 /> einfügen </a>
+            <img src="../shared/img/pencil=tool.png" border=0 /> einfügen </a>
         </button>
     </form>
 </body>

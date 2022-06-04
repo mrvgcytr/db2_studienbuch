@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h2>Bitte legen Sie einen neuen Kunden an</h2>
+    <form method=post action="kundenEinfuegen.php">
+        <table bgcolor="#DDDDDD" cellpadding=5>
+            <tr>
+                <td>Vorname:</td>
+                <td><textarea rows=1 cols=60 name="vorname"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Nachname: </td>
+                <td><textarea rows=1 cols=60 name="nachname"></textarea> </td>
+            </tr>
+            <tr>
+                <td>Straße: </td>
+                <td><textarea rows=1 cols=60 name="straße"></textarea></td>
+            </tr>
+            <tr>
+                <td>Hausnr.: </td>
+                <td><textarea rows=1 cols=60 name="hausnummer"></textarea></td>
+            </tr>
+            <tr>
+                <td>PLZ: </td>
+                <td><textarea rows=1 cols=60 name="plz"></textarea></td>
+            </tr>
+            <tr>
+                <td>Stadt: </td>
+                <td><textarea rows=1 cols=60 name="stadt"></textarea></td>
+            </tr>
+            <tr>
+                <td>E-Mail: </td>
+                <td><textarea rows=1 cols=60 name="email"></textarea></td>
+            </tr>
+            <tr>
+                <td>Telefonnr.: </td>
+                <td><textarea rows=1 cols=60 name="tel"></textarea></td>
+            </tr>
+
+        </table><BR>
+
+        <!-- Abbruch Button -->
+        <button name="back" type="button" onclick="window.location.href='kunden.php' " value="Zurück zur Liste">
+            <img src="../shared/img/trash-bin.png" border=0 /> abbrechen </a>
+        </button>
+
+        <!-- EinfügeButton -->
+        <button name="insert" type="submit" value="einfügen">
+            <img src="../shared/img/pencil-tool.png" border=0 /> einfügen </a>
+        </button>
+    </form>
+</body>
+
+</html>

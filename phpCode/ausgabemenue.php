@@ -25,7 +25,7 @@
 
     if ($news) {
         echo "Hier finden Sie unseren ";
-        echo "<a href-news.php>Newsletter</a>!";
+        echo "<a href=news.php>Newsletter</a>!";
     }
     ?>
 </body>

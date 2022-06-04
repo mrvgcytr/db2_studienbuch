@@ -22,7 +22,7 @@
 
     //Ausgabe des Resultats
 
-    ausgabeListe($sql, "anfrage", "anfrage_id", true);
+    ausgabeListe($sql, "anfrage", "anfrage_id", false);
 
     ?>
 

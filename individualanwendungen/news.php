@@ -17,7 +17,7 @@
 
     echo "<h2> News </h2>";
 
-    // Vewende Verbindung aus bibliothek.php
+    // Verwende Verbindung aus bibliothek.php
     //Datenbankabfrage
     $sql = "SELECT * FROM news ORDER BY news_id DESC";
 
@@ -25,13 +25,15 @@
     $res = $verbindung->query($sql) or
         die("Konnte die Abfrage nicht ausfuehren");
 
-    //Ausgabe des Inhalts in Tabellenform
-    echo "<table width=\"100%\">";
 
     while ($datensatz = $res->fetch_assoc()) {
+        //Ausgabe des Inhalts in Tabellenform
+        echo "<table width=\"100%\">";
 
         //Ausgabe des Titels
-        echo "<tr><td colspan=3><font size=5>";
+        //"colspan" erlaubt es, eine Tabellenzelle nach rechts über mehrere 
+        // Spalten auszudehnen
+        echo "<tr><td colspan=2><font size=5>";
         echo $datensatz['titel'] . "</td></tr>\n";
 
         //Ausgabe des Vorspanns
@@ -51,10 +53,8 @@
         echo $datensatz['ort'] . ", den \n";
         $datum = new DateTime($datensatz['datum']);
         echo $datum->format('d.m.y') . "</td>\n";
-        echo "</table><br><table width=\"100%\">";
+        echo "</table><br>";
     }
-
-    echo "</table>";
 
     //Button zum Einfügen von News ausgeben 
     echo "
